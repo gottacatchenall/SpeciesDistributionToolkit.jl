@@ -17,14 +17,10 @@ using Reexport
 # Expose the components
 @reexport using SimpleSDMDatasets
 @reexport using SimpleSDMLayers
-@reexport using Fauxcurrences
 @reexport using Phylopic
 
 # SimpleSDMLayers to wrap everything together
 include("integrations/datasets_layers.jl")
-
-# Plotting
-include("integrations/makie.jl")
 
 # Functions for IO
 include("io/geotiff.jl")
