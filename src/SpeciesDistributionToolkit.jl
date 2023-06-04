@@ -17,7 +17,6 @@ using Reexport
 # Expose the components
 @reexport using SimpleSDMDatasets
 @reexport using SimpleSDMLayers
-@reexport using Phylopic
 
 # SimpleSDMLayers to wrap everything together
 include("integrations/datasets_layers.jl")
